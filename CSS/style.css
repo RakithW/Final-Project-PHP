@@ -1,0 +1,196 @@
+/* set font family for various headings */
+h1, h2, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* style for h3 within col-sm-12 class */
+.col-sm-12 h3 {
+    color: #fff;
+    padding-bottom: 3em;
+}
+
+/* common styling for text elements */
+p, a, li, input, th, td {
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* reset margin for row class */
+.row {
+    margin: 0;
+}
+
+/* styling for header section */
+header {
+    background-color: #e88b3f;
+}
+
+/* navbar logo style */
+.navbar img {
+    height: 50px;
+    width: auto;
+}
+
+/* styling for links within the header navigation */
+header > nav > div > a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* styling for footer section */
+footer {
+    padding: 5%;
+    background-color: #e88b40;
+    color: #fff;
+}
+
+/* styling for masthead section */
+.masthead {
+    height: 75vh;
+    background-image: url('../img/688dce7be00d00eca7af17ddf1882674 (1).jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* styling for specific form row child */
+.form-row div:nth-child(1) {
+    background-color: #3296cb;
+    color: black;
+}
+
+/* styling for another form row child */
+.form-row div:nth-child(2) {
+    background-color: #62c766;
+    color: black;
+}
+
+/* hover effect for light button */
+.btn-light:hover {
+    background-color: #e2e6ea;
+    color: #212529;
+}
+
+/* styling for primary button */
+.btn-primary {
+    background-color: #3296cb;
+    border: none;
+    color: #fff;
+}
+
+/* hover effect for primary button */
+.btn-primary:hover {
+    background-color: #3296cb;
+    color: #000;
+}
+
+/* styling for warning button */
+.btn-warning {
+    color: #fff;
+    background-color: #e88b40;
+    border: none;
+}
+
+/* styling for about section */
+.about {
+    padding: 10rem;
+    color: #fff;
+    background-color: #62c766;
+    text-align: center;
+}
+
+/* styling for masthead content within div */
+.masthead div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* styling for h1 within masthead div */
+.masthead div h1 {
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+}
+
+/* styling for form row div */
+.form-row div {
+    padding: 5%;
+}
+
+/* styling for form within form row div */
+.form-row div form {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+/* styling for signin masthead */
+.signin-masthead {
+    height: 50vh;
+}
+
+/* styling for rows within signin section */
+.signin-row {
+    padding: 5%;
+}
+
+/* styling for person masthead */
+.person-masthead {
+    width: 100%;
+    height: 50vh;
+}
+
+/* styling for content within person masthead div */
+.person-masthead div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* styling for h1 within person masthead div */
+.person-masthead div h1 {
+    color: #fff;
+    font-size: 2.5em;
+}
+
+/* styling for rows within person section */
+.person-row {
+    padding: 5% 10%;
+}
+
+/* styling for columns' h3 */
+.col h3 {
+    color: black;
+}
+
+/* styling for success row and related sections */
+.success-row,
+.signin-masthead,
+.add-image-page {
+    background-image: url('../img/job562-nunoon-10 (1).jpg');
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling for content within success row and related sections */
+.success-row div,
+.signin-masthead div,
+.add-image-page div {
+    text-align: center;
+    width: 50em;
+    padding: 5%;
+    background-color: rgba(232, 139, 64, 0.7);
+    border-radius: 5px;
+    color: #fff;
+}
+
+/* styling for success back row */
+.success-back-row {
+    padding: 5%;
+}
